@@ -1,0 +1,37 @@
+* Author: Vaibhav Kurhe
+* Date: 04 Feb 2016
+
+* Environment
+ -OS:CentOS-6 
+ -Browsers:Chrome
+ -Bandwidth: 100 mbps
+ -Hardware Configuration:4 GB
+ -Processor:i5
+
+*Objective
+ -To know if the radio buttons are not selected and Clicked on cancel button
+ 
+*Pre Condition
+ 
+    -Open the url vlabs.ac.in and vlabs home page will be displayed
+    -Click on "COE Pune" and a list of labs will be displayed on the screen
+    -Select “Industrial Automation Laboratory”, a home page will be displayed on the screen and click on List of Experiments link, 	where a list of experiments will be displayed on the screen
+    -Select “Study hardware and software platforms for DCS” experiment.
+
+*Post condition
+    -Nil	
+
+*Test Step    
+    1.Click on the Pretest link
+    2.It should re-direct to the Pretest page with questions and answers
+    3.Don’t Select the options using the corresponding radio buttons and Click on the cancel button
+
+
+*Expected result     
+    1.Pretest page should be opened
+    2.Content should be present with no distortions and Junk characters
+    3.An error message should be dispalyed on the screen
+
+
+
+*Review/comments
