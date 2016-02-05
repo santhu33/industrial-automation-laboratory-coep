@@ -22,11 +22,11 @@
     -Nil	
 
 *Test Step    
-    1.Click on the Pre test link
-    2.View the Pre test page
+    -Click on the Pre test link
+    -View the Pre test page
 
 *Expected result     
-    1.Pre test page should be opened
-    2.Content should be present with no distortions and Junk characters
+    -Pre test page should be opened
+    -Content should be present with no distortions and Junk characters
 
 *Review/comments
