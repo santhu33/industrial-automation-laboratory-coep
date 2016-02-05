@@ -9,7 +9,7 @@
   - Processor:i5
 
 * Objective
-  -To view the Pre test of “Study hardware and software platforms for DCS” experiment
+  - To view the Pre test of “Study hardware and software platforms for DCS” experiment
  
 * Pre Condition
   - Open the url vlabs.ac.in and vlabs home page will be displayed
