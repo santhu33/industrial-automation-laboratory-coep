@@ -93,50 +93,53 @@
 					<div class="row">
 						<div class="col-md-2 sidebar-col-2">
 						<!--edit1-->
-<a href="Aim.html?domain=Electrical Engineering&lab=Industrial Automation Laboratory" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">Aim</h3></a><a href="Pre Test.html?domain=Electrical Engineering&lab=Industrial Automation Laboratory" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">Pre Test</h3></a><a href="Theory.html?domain=Electrical Engineering&lab=Industrial Automation Laboratory" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">Theory</h3></a><a href="Simulator.html?domain=Electrical Engineering&lab=Industrial Automation Laboratory" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">Simulator</h3></a><a href="Procedure.html?domain=Electrical Engineering&lab=Industrial Automation Laboratory" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">Procedure</h3></a><a href="Post Test.html?domain=Electrical Engineering&lab=Industrial Automation Laboratory" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">Post Test</h3></a><a href="Review Questions.html?domain=Electrical Engineering&lab=Industrial Automation Laboratory" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">Review Questions</h3></a><a href="Reference.html?domain=Electrical Engineering&lab=Industrial Automation Laboratory" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">Reference</h3></a><a href="Feedback.html?domain=Electrical Engineering&lab=Industrial Automation Laboratory" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">Feedback</h3></a>						</div>
+<a href="Aim.html?domain=Electrical Engineering&lab=Industrial Automation Laboratory" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">Aim</h3></a><a href="Pre Test.html?domain=Electrical Engineering&lab=Industrial Automation Laboratory" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">Pre Test</h3></a><a href="Theory.html?domain=Electrical Engineering&lab=Industrial Automation Laboratory" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">Theory</h3></a><a href="Simulator.html?domain=Electrical Engineering&lab=Industrial Automation Laboratory" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">Simulator</h3></a><a href="Procedure.html?domain=Electrical Engineering&lab=Industrial Automation Laboratory" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">Procedure</h3></a><a href="Video.html?domain=Electrical Engineering&lab=Industrial Automation Laboratory" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">Audio/Video</h3></a><a href="Post Test.html?domain=Electrical Engineering&lab=Industrial Automation Laboratory" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">Post Test</h3></a><a href="Review Questions.html?domain=Electrical Engineering&lab=Industrial Automation Laboratory" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">Review Questions</h3></a><a href="Reference.html?domain=Electrical Engineering&lab=Industrial Automation Laboratory" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">Reference</h3></a><a href="Feedback.html?domain=Electrical Engineering&lab=Industrial Automation Laboratory" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">Feedback</h3></a>						</div>
 						
 						<div class="col-md-10 lab-list-col-10">
 							
 							<!--edit -->
 <h1 class="text-h2-lightblue">FBD for autoclavable laboratory fermentor</h1><div class="content" id="experiment-article-section-5-content" style="margin-left: 20px;"><div class="divContent">
 <br><big><b><font color="red">The procedure for using simulator is as follows:</font></b></big>
-<pre><p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: 150%;"><span style='font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>Steps for implementing the PID control scheme for autoclavable fermenter using  <b>Emerson Delta-V DCS</b>.
+<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: 150%; text-align:justify;"><span style='font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>Steps for implementing the PID control scheme for autoclavable fermenter using  <b>Emerson Delta-V DCS</b>.<br/>
 
- This solution is implemented on <b>EMERSON DETA V DCS</b>.
+ This solution is implemented on <b>EMERSON DETA V DCS</b>.<br/>
 
- 1. First configure the function blocks as shown below.
+ 1. First configure the function blocks as shown below.<br/>
 			<img src="images/block_diagram_R(1).jpg"/>
-			
-2. Configure the P gain value for the controller without any Integral and  Derivative action setting.
+<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: 150%; text-align:justify;"><span style='font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>
+2. Configure the P gain value for the controller without any Integral and  Derivative action setting.<br/>
 
-3. Set some random value of process input at simulate in terminal of AI block.
+3. Set some random value of process input at simulate in terminal of AI block.<br/>
 
-4. Observe the PID output changes by varying the feedback factor (multiplying  gain).
+4. Observe the PID output changes by varying the feedback factor (multiplying  gain).<br/>
 
-5. Now by changing P gain observe the effect on PID output by disturbing the set point value
+5. Now by changing P gain observe the effect on PID output by disturbing the set point value<br/>
 
-6. Introduce Integral action and repeat step 4 and 5
+6. Introduce Integral action and repeat step 4 and 5<br/>
 
-7. Then add derivative action to it and repeat step 4 and 5.
+7. Then add derivative action to it and repeat step 4 and 5.<br/>
 
 8. Obtain the PID parameters that give optimum process performance.
+<br/>
+In DCS these effects   can be observed graphically by configuring History View.<br/>
 
-In DCS these effects   can be observed graphically by configuring History View.
-
-<b>Some of the results obtained by implementing the control scheme on Emerson Delta-V are represented here.</b>
+<b>Some of the results obtained by implementing the control scheme on Emerson Delta-V are represented here.</b><br/>
  
-<font color="red"><b>1. When the process first time settles down.</b></font>
+<font color="red"><b>1. When the process first time settles down.</b></font><br/>
 	<img height="300px" src="images/first time settle.jpg" width="600px"/>
-<font color="red"><b>2. After the rate action is introduced</b></font>
+<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: 150%; text-align:justify;"><span style='font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>
+<font color="red"><b>2. After the rate action is introduced</b></font><br/>
 	<img height="300px" src="images/after rate introduced.jpg" width="600px"/>
-<font color="red"><b>3. When set point disturbance is given to the process</b></font>
+<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: 150%; text-align:justify;"><span style='font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>
+<font color="red"><b>3. When set point disturbance is given to the process</b></font><br/>
 	<img height="300px" src="images/sp_disturbance_upper side(40 to 42).jpg" width="600px"/>
+<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: 150%; text-align:justify;"><span style='font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>
 	
-While implementing on Simulator, instead of feebback  use two different inputs in the following mannner and give PID output value as input  AI2 to SUB  block.
+While implementing on Simulator, instead of feebback  use two different inputs in the following mannner and give PID output value as input AI2 to SUB  block.<br/><br/>
 
 	<img height="300px" src="images/Autoclavable_PID.JPG" width="600px"/>
 
-</span></p></pre>
+</span></p>
 </br></div></div>						</div>
 					</div>
 			</div>
