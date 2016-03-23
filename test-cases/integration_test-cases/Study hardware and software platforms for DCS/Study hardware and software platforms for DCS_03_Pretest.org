@@ -21,11 +21,18 @@
   - Nil	
 
 * Test Step    
-  - Click on the Pre test link
-  - View the Pre test page
+  - Click on the Pretest link
+  - View the Pretest page with questions and answers
+  - Select the radio buttons and click on submit button.
+  - click on submit button without selecting any of the option.
+  - Click on view solution button on result page
 
 * Expected result     
-  - Pre test page should be opened
-  - Content should be present with no distortions and Junk characters
+  - Pretest page should be opened
+  - Content should be present with no distortions and Junk’s characters
+  - The Result should be displayed with the correct option if the selected option is wrong or an error message should be displayed to complete the Pretest.
+  - It should give response for the test
+  - It should display correct answers for the test in new pop-up window
+
 
 * Review/comments
