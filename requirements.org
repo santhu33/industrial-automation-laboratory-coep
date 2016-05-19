@@ -1,0 +1,142 @@
+#+title: Requirement/Workflow for Industrial Automation Lab
+#+Author: Integration Team
+#+Date: [2016-03-30]
+
+This document contains the basic work flow and requirement for Industrial Automation Lab. Testing should happen against all the requirements mentioned in this document by integration team. 
+
+* Lab wise requirements 
+
+Main page Should contain following tabs for Industrial Automation Lab with the content related to the introduction.
+
+** Introduction
+
+Content should display on page related to the introduction of Industrial Automation Lab.
+
+** List of experiments 
+
+List of experiment related to Industrial Automation Lab should display on page.
+
+* Experiment wise requirements
+
+** Study hardware and software platforms for DCS Experiment 
+
+It should contain the Aim,Pretest, Theory,Procedure,Post test, Review Questions,Reference and feedback on the left corner and all the tabs should contain the relevant information.
+
+- Pretest tab:When we click on the  Pretest link, Pretest page should get display on the screen with questions along with objectives and Submit and Reset button.
+
+- Posttest tab:When we click on the  Pretest link, Posttest page should get display on the screen with questions along with objectives and Submit and Reset button. 
+  
+- Feedback tab:When we click on the Feedback link,Feedback page should get display with all fields and Submit button.
+  
+** Simulate analog and digital function blocks Experiment
+
+It should contain the Aim,Pretest,Theory,Simulator,Procedure,Post test Review Questions,Reference and feedback on the left corner and all the tabs should contain the relevant information.
+
+- Pretest tab:When we click on the  Pretest link,Pretest page should get display on the screen with questions along with objectives and Submit and Reset button. 
+  
+- Simulator:When we click on Simulator tab,simulator link should get open.This link should open programming area for user    to  write the program,compile and run it.Different types of programming blocks are provided at top left corner of the screen and property window which shows property for selected block in programming area.
+
+  User should be able to select and connect programming blocks according to program logic.
+
+  Once user have done with all connections and blocks tag selection,he/she should be able to compile and run his/her code using Compile and Run button.User also can stop the programming logic and clear programming area with Stop and Clear button respectively.
+  
+- Posttest tab:When we click on the  Pretest link,Posttest page should get display on the screen with questions along with objectives and Submit and Reset button. 
+  
+- Feedback tab:When we click on the  Feedback link,Feedback page should get display with all fields and Submit button.
+  
+  
+** Study,understand and perform experiments on timers and counters Experiment
+
+It should contain the Aim,Pretest,Theory,Simulator,Procedure,Post test, Review Questions,Reference and feedback on the left corner and all the tabs should contain the relevant information.
+
+- Pretest tab:When we click on the Pretest link,Pretest page should get display on the screen with questions along with objectives and Submit and Reset button. 
+  
+- Simulator:When we click on Simulator tab,simulator link should get open.This link should open programming area for user    to  write the program,compile and run it.Different types of programming blocks are provided at top left corner of the screen and property window which shows property for selected block in programming area.
+
+  User should be able to select and connect programming blocks according to program logic.
+
+  Once user have done with all connections and blocks tag selection, he/she should be able to compile and run his/her code using Compile and Run button.User also can stop the programming logic and clear programming area with Stop and Clear button respectively.
+  
+- Posttest tab:When we click on the  Pretest link,Posttest page should get display on the screen with questions along with objectives and Submit and Reset button. 
+  
+- Feedback tab:When we click on the  Feedback link,Feedback page should get display with all fields and Submit button.
+
+** Logic implementation for traffic Control Application Experiment
+
+It should contain the Aim,Pretest,Theory,Simulator,Procedure,Post test, Review Questions,Reference and feedback on the left corner and all the tabs should contain the relevant information.
+
+- Pretest tab:When we click on the Pretest link,Pretest page should get display on the screen with questions along with objectives and Submit and Reset button. 
+  
+- Simulator: When we click on Simulator tab,simulator link should get open.This link should open programming area for user    to  write the program,compile and run it.Different types of programming blocks are provided at top left corner of the screen and property window which shows property for selected block in programming area.
+
+  User should be able to select and connect programming blocks according to program logic.
+
+  Once user have done with all connections and blocks tag selection,he/she should be able to compile and run his/her code using Compile and Run button.User also can stop the programming logic and clear programming area with Stop and Clear button respectively.
+  
+- Posttest tab:When we click on the  Pretest link, Posttest page should get display on the screen with questions along with objectives and Submit and Reset button. 
+  
+- Feedback tab:When we click on the  Feedback link, Feedback page should get display with all fields and Submit button.
+
+** Logic implementation for Bottle Filling Application Experiment
+
+It should contain the Aim,Pretest,Theory,Simulator,Procedure,Post test, Review Questions,Reference and feedback on the left corner and all the tabs should contain the relevant information.
+
+- Pretest tab:When we click on the Pretest link, Pretest page should get display on the screen with questions along with objectives and Submit and Reset button. 
+  
+- Simulator:When we click on Simulator tab,simulator link should get open.This link should open programming area for user    to  write the program,compile and run it.Different types of programming blocks are provided at top left corner of the screen and property window which shows property for selected block in programming area.
+
+  User should be able to select and connect programming blocks according to program logic.
+
+  Once user have done with all connections and blocks tag selection, he/she should be able to compile and run his/her code using Compile and Run button.User also can stop the programming logic and clear programming area with Stop and Clear button respectively.
+  
+- Posttest tab:When we click on the  Pretest link, Posttest page should get display on the screen with questions along with objectives and Submit and Reset button. 
+  
+- Feedback tab:When we click on the  Feedback link, Feedback page should get display with all fields and Submit button.
+
+** Tune PID controller for heat exchanger using DCS Experiment
+
+It should contain the Aim,Pretest,Theory,Simulator,Procedure,Post test, Review Questions,Reference and feedback on the left corner and all the tabs should contain the relevant information.
+
+- Pretest tab:When we click on the Pretest link, Pretest page should get display on the screen with questions along with objectives and Submit and Reset button. 
+  
+- Simulator:When we click on Simulator tab,simulator link should get open.This link should open programming area for user    to  write the program,compile and run it.Different types of programming blocks are provided at top left corner of the screen and property window which shows property for selected block in programming area.
+
+  User should be able to select and connect programming blocks according to program logic.
+
+  Once user have done with all connections and blocks tag selection, he/she should be able to compile and run his/her code using Compile and Run button.User also can stop the programming logic and clear programming area with Stop and Clear button respectively.
+  
+- Posttest tab:When we click on the  Pretest link, Posttest page should get display on the screen with questions along with objectives and Submit and Reset button. 
+  
+- Feedback tab:When we click on the  Feedback link, Feedback page should get display with all fields and Submit button.
+
+** FBD for autoclave laboratory fermenter Experiment
+
+It should contain the Aim,Pretest,Theory,Simulator,Procedure,Post test, Review Questions,Reference and feedback on the left corner and all the tabs should contain the relevant information.
+
+- Pretest tab:When we click on the Pretest link, Pretest page should get display on the screen with questions along with objectives and Submit and Reset button. 
+  
+- Simulator:When we click on Simulator tab,simulator link should get open.This link should open programming area for user    to write the program,compile and run it.Different types of programming blocks are provided at top left corner of the screen and property window which shows property for selected block in programming area.
+
+  User should be able to select and connect programming blocks according to program logic.
+
+  Once user have done with all connections and blocks tag selection, he/she should be able to compile and run his/her code using Compile and Run button.User also can stop the programming logic and clear programming area with Stop and Clear button respectively.
+  
+- Posttest tab:When we click on the  Pretest link,Posttest page should get display on the screen with questions along with objectives and Submit and Reset button. 
+  
+- Feedback tab:When we click on the  Feedback link,Feedback page should get display with all fields and Submit button.
+
+** Develop graphical user interface for the fermenter plant Experiment
+
+It should contain the Aim,Pretest,Theory,Simulator,Procedure,Post test, Review Questions,Reference and feedback on the left corner and all the tabs should contain the relevant information.
+
+- Pretest tab:When we click on the Pretest link, Pretest page should get display on the screen with questions along with objectives and Submit and Reset button. 
+  
+- Simulator:When we click on Simulator tab,simulator link should get open.This link should open programming area for user    to  write the program,compile and run it.Different types of programming blocks are provided at top left corner of the screen and property window which shows property for selected block in programming area.
+
+  User should be able to select and connect programming blocks according to program logic.
+
+  Once user have done with all connections and blocks tag selection, he/she should be able to compile and run his/her code using Compile and Run button.User also can stop the programming logic and clear programming area with Stop and Clear button respectively.
+  
+- Posttest tab:When we click on the  Pretest link, Posttest page should get display on the screen with questions along with objectives and Submit and Reset button. 
+  
+- Feedback tab:When we click on the  Feedback link, Feedback page should get display with all fields and Submit button.
